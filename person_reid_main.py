@@ -212,7 +212,7 @@ if __name__ == '__main__':
     parser.add_argument("--source", default="videos/inputs/video.mp4", help="path to input video", type=str)
     parser.add_argument("--detect-every-n-frame", default=8, help="detect every n-th frame", type=int)
     parser.add_argument("--device", default="cuda", help="device for inferencing", type=str)
-    parser.add_argument("--display", action="store_false", help="flag this to display output frame while inferencing")
+    parser.add_argument("--display", action="store_true", help="flag this to display output frame while inferencing")
     parser.add_argument("--save", action="store_true", help="flag this to save output video. Video is saved to videos/outputs")
     parser.add_argument("--yolov5-weights", default="weights/yolov5/yolov5s.pt", help="path to yolov5 weight", type=str)
     parser.add_argument("--fp16", action="store_true", help="flag this to run in half-precision mode")
