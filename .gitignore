@@ -146,7 +146,7 @@ dmypy.json
 tb_logs/
 .vscode
 logs/
-# models/
+models/
 *.pyc
 debugs/
 *.c
