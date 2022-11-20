@@ -1,7 +1,7 @@
-# data
-# videos
-# weights
-# License
+data
+videos
+weights
+License
 
 .history
 *.ipynb
